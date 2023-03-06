@@ -42,10 +42,11 @@
     border-bottom: 2px solid rgb(113, 178, 200);
 }
 .navbar-brand{
-    margin-left: 100px;
+    margin-left: 5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     color: lightblue;
+    font-weight:800;
 }
 .carousel-container{
     height: 90vh;
@@ -173,7 +174,7 @@
 
 @media screen and (max-width : 767px ) {
     .navbar-brand{
-        margin-left: 50px;
+        margin-right: 20px;
     }
 }
 .accordion-button{
@@ -267,4 +268,3 @@
   .masonry-grid > div .thumbnail {
     margin: 10px 10px;
   }
-  
