@@ -23,6 +23,17 @@
 .dropdown-item:hover{
     background-color: rgb(113, 178, 200);
 }
+.carousel-item img{
+    object-position: center;
+    object-fit:cover;
+    height: 90vh;
+    overflow: hidden;
+    width: 100%;   
+}
+.carousel-inner{
+    height: 90vh;
+    width: auto;
+}
 
 
 .nav-link:hover{
@@ -46,9 +57,15 @@
 }
 .dropdown-item1{
     text-decoration: none;
+    margin-left: 10px;
 }
 .dropdown-item1:hover{
    background-color: rgb(113, 178, 200);
+}
+@media screen and (max-width: 767px) {
+    .rooms{
+        width: 350px !important;
+    }
 }
 @media screen and (max-width:767px){
 .Guest-box{
@@ -143,6 +160,15 @@
     color: rgb(6, 69, 90);
     font-family: 'Noto Serif Khojki', serif;
 }
+
+@media screen and (max-width: 767px) {
+    .maps{
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+    }
+}
+
 
 
 
