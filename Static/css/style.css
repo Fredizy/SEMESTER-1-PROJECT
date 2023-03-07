@@ -140,7 +140,7 @@
 
 @media screen and (max-width: 767px) {
     .img-container{
-        width: 350px !important;
+        width: 340px !important;
         height: 300px; 
                    
     }
@@ -151,6 +151,11 @@
     align-items: center;
     justify-content: center;
 
+}
+@media screen and (max-width: 767px) {
+    .img-container{
+        width: 340px !important;
+    }
 }
 
 .img-container1:hover{
@@ -181,25 +186,6 @@
     max-width: 90%;
     margin: 0px auto;
 }
-/* @media screen and (min-width: 992px) {
-    .rooms{
-        margin-left: 150px;
-    }
-}
-@media screen and (max-width: 992px) {
-    .rooms-text{
-       text-align: justify;
-    }
-}
-@media screen and (max-width: 992px) {
-    .form-feedback{
-       margin-left: 230px;
-    }
-} */
- /* .accordion-body{
-    max-width: 90%;
-    margin: 0px auto;
- } */
 
 
 
@@ -268,3 +254,6 @@
   .masonry-grid > div .thumbnail {
     margin: 10px 10px;
   }
+.container-fluid1{
+    overflow: hidden;
+}
